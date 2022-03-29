@@ -1,0 +1,15 @@
+.search {
+  &__label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 4px;
+    display: block;
+  }
+  &__input {
+    display: block;
+    height: 34px;
+    width: 100%;
+    border: 1px solid #000000;
+  }
+}

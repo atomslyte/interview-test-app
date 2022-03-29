@@ -1,0 +1,24 @@
+@import "./breakpoints.scss";
+.row {
+  margin: 33px 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  &__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  &__children {
+    display: flex;
+    margin-left: 28px;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+
+    @include media(">=768px") {
+      margin-left: 77px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "./breakpoints.scss";
+
+.card {
+  padding: 10px;
+  flex: 0 0 auto;
+  max-width: 300px;
+
+  display: inline;
+  // justify-content: center;
+  // align-items: center;
+  margin-right: 13px;
+  width: 200px;
+  height: 200px;
+
+  background: #000000;
+  border-radius: 12px;
+
+  @include media(">=768px") {
+    width: 300px;
+    height: 300px;
+  }
+}
