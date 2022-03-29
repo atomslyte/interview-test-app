@@ -15,7 +15,7 @@
     display: flex;
     margin-left: 1.75rem;
     flex-wrap: nowrap;
-    overflow-x: hidden;
+    overflow-x: auto;
 
     @include media(">=768px") {
       margin-left: 4.8125rem;
