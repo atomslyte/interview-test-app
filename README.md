@@ -1,6 +1,6 @@
 ## Interview Test App
 
-#### This is an implementation of the interview test given in a figma design created by [**Anthony Onu**]("https://www.linkedin.com/in/anthony-onu-1a2800136/")
+#### This is an implementation of the interview test given in a figma design created by [Anthony Onu]("https://www.linkedin.com/in/anthony-onu-1a2800136/")
 
 #### Time Finished: 2hrs 30mins
 
