@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from "react";
-import axios from "axios";
+import React, { useState } from "react";
+// import axios from "axios";
 import "../styles/search.scss";
-import { Data } from "../context/dataProvider.context";
+// import { Data } from "../context/dataProvider.context";
 
 const Search = () => {
-  const { setData } = useContext(Data);
+  // const { setData } = useContext(Data);
   const [query, setQuery] = useState("");
 
   const handleChange = e => {
@@ -13,19 +13,19 @@ const Search = () => {
     console.log(query);
   };
 
-  const fetchData = async () => {
-    try {
-      const { data } = await axios.get(
-        `http://www.omdbapi.com/?t=${query}&apikey=${process.env.REACT_APP_API_KEY}`
-      );
-      console.log("data");
-      // setData();
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  // const fetchData = async () => {
+  //   try {
+  //     const { data } = await axios.get(
+  //       `http://www.omdbapi.com/?t=${query}&apikey=${process.env.REACT_APP_API_KEY}`
+  //     );
+  //     console.log("data");
+  //     // setData();
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
 
-  useEffect = (() => fetchData(), []);
+  // useEffect = (() => fetchData(), []);
 
   return (
     <div className="search">
