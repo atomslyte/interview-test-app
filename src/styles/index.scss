@@ -19,9 +19,9 @@ code {
 }
 
 .container {
-  padding: 0 28px;
+  padding: 0 1.75rem;
 
   @include media(">=768px") {
-    padding: 0 77px;
+    padding: 0 4.8125rem;
   }
 }
